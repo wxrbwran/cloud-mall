@@ -25,117 +25,33 @@
       <change afterPath="$PROJECT_DIR$/../SpringCloud课程查询源码/课程价格模块开发后/spring-cloud-course-practice/course-service/course-price/course-price.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpringCloud课程查询源码/课程价格模块开发后/spring-cloud-course-practice/course-service/course-service.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpringCloud课程查询源码/课程价格模块开发后/spring-cloud-course-practice/spring-cloud-course-practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6b077be8-de5a-4a3a-86e8-4e6580514a90.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6b077be8-de5a-4a3a-86e8-4e6580514a90/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/CategoryProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/common/ProductConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/config/CachingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/config/ImoocMallWebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/dao/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/dao/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/query/ProductListQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/request/AddCategoryReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/request/AddProductReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/request/ProductListReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/request/UpdateCategoryReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/request/UpdateProductReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/vo/CategoryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/CategoryProductApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/common/ProductConstant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/config/CachingConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/config/ImoocMallWebMvcConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/controller/CategoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductAdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/dao/CategoryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/dao/ProductMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/pojo/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/pojo/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/query/ProductListQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/request/AddCategoryReq.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/request/AddProductReq.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/request/ProductListReq.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/request/UpdateCategoryReq.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/request/UpdateProductReq.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/vo/CategoryVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/service/CategoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/mappers/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/mappers/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/common/ApiRestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/common/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/exception/ImoocMallException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/exception/ImoocMallExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/util/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/util/OrderCodeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/util/QRCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/ApiRestResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant$Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant$OrderStatusEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant$ProductListOrderBy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant$SaleStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/exception/ImoocMallException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/exception/ImoocMallExceptionEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/util/MD5Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/util/OrderCodeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-eureka-server/src/main/java/com/imooc/cloud/mall/practice/eureka/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-eureka-server/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-eureka-server/target/classes/com/imooc/cloud/mall/practice/eureka/EurekaServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/java/com/imooc/cloud/mall/practice/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/java/com/imooc/cloud/mall/practice/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/java/com/imooc/cloud/mall/practice/user/model/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/java/com/imooc/cloud/mall/practice/user/model/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/java/com/imooc/cloud/mall/practice/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/java/com/imooc/cloud/mall/practice/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-mall-user/target/classes/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/src/main/java/com/imooc/cloud/mall/practice/zuul/ZuulGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/src/main/java/com/imooc/cloud/mall/practice/zuul/feign/UserFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/src/main/java/com/imooc/cloud/mall/practice/zuul/filter/AdminFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/src/main/java/com/imooc/cloud/mall/practice/zuul/filter/UserFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/com/imooc/cloud/mall/practice/zuul/ZuulGatewayApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/com/imooc/cloud/mall/practice/zuul/feign/UserFeignClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/com/imooc/cloud/mall/practice/zuul/filter/AdminFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/com/imooc/cloud/mall/practice/zuul/filter/UserFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/CartOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/controller/OrderAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/feign/ProductFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/feign/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/filter/FeignRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/dao/CartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/dao/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/dao/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/request/CreateOrderReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/vo/CartVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/vo/OrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/vo/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/resources/mappers/CartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/resources/mappers/OrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/resources/mappers/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/null117340159198.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../imooc-mall-ori/mall.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../imooc-mall/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../imooc-mall/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
@@ -312,6 +228,37 @@
       <change beforePath="$PROJECT_DIR$/../ObjectProj/src/com/imooc/tel/ThirdPhone.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ObjectProj/src/com/imooc/test/TestCat.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ObjectProj/src/com/imooc/test/TestPrivate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/model/pojo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/pojo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/model/pojo/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-category-product/target/classes/com/imooc/cloud/mall/practice/categoryproduct/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/common/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/util/OrderCodeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/util/OrderCodeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/util/QRCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-common/src/main/java/com/imooc/cloud/mall/practice/common/util/QRCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant$OrderStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant$OrderStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant$ProductListOrderBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant$ProductListOrderBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/common/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-common/target/classes/com/imooc/cloud/mall/practice/common/util/OrderCodeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-user/src/main/java/com/imooc/cloud/mall/practice/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-user/src/main/java/com/imooc/cloud/mall/practice/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-mall-user/target/classes/com/imooc/cloud/mall/practice/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-mall-user/target/classes/com/imooc/cloud/mall/practice/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud.mall.zuul/src/main/java/com/imooc/cloud/mall/practice/zuul/filter/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.mall.zuul/src/main/java/com/imooc/cloud/mall/practice/zuul/filter/UserFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud.mall.zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.mall.zuul/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/com/imooc/cloud/mall/practice/zuul/filter/UserFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.mall.zuul/target/classes/com/imooc/cloud/mall/practice/zuul/filter/UserFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/ObjectProj/com/imooc/animal/Animal.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/ObjectProj/com/imooc/animal/Cat.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/ObjectProj/com/imooc/animal/Cat1.class" beforeDir="false" />
@@ -349,7 +296,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1t7Aavc1kgQQv7QFL63m2fvj7Rq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -371,25 +318,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/util" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct" />
-      <recent name="$PROJECT_DIR$/cloud-mall-category-product/src/main/resources/mappers" />
-      <recent name="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service/impl" />
-      <recent name="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/service" />
-      <recent name="$PROJECT_DIR$/cloud-mall-category-product/src/main/java/com/imooc/cloud/mall/practice/categoryproduct/controller" />
+      <recent name="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/util" />
+      <recent name="$PROJECT_DIR$/cloud-mall-cart-order/src/main/resources" />
+      <recent name="$PROJECT_DIR$/cloud-mall-cart-order/src/main/resources/mappers" />
+      <recent name="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/vo" />
+      <recent name="$PROJECT_DIR$/cloud-mall-cart-order/src/main/java/com/imooc/cloud/mall/practice/cartorder/model/pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.cloud.mall.practice.cartorder.feign" />
+      <recent name="com.imooc.cloud.mall.practice.cartorder.model.request" />
       <recent name="com.imooc.cloud.mall.practice.categoryproduct.query" />
       <recent name="com.imooc.cloud.mall.practice.categoryproduct.model.request" />
       <recent name="com.imooc.cloud.mall.practice.categoryproduct.controller" />
-      <recent name="com.imooc.cloud.mall.practice.zuul.filter" />
-      <recent name="com.imooc.cloud.mall.practice.user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,16 +346,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CategoryProductApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.CartOrderApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-mall-cart-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.cloud.mall.practice.cartorder.CartOrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -469,7 +421,8 @@
       <option name="presentableId" value="Default" />
       <updated>1622109821667</updated>
       <workItem from="1622109823148" duration="9836000" />
-      <workItem from="1622182314649" duration="11831000" />
+      <workItem from="1622182314649" duration="13846000" />
+      <workItem from="1622256944642" duration="14634000" />
     </task>
     <servers />
   </component>
@@ -490,5 +443,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

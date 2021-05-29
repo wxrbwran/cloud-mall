@@ -82,8 +82,7 @@ public class ProductServiceImpl implements ProductService {
   public PageInfo listForAdmin(Integer pageNum, Integer pageSize) {
     PageHelper.startPage(pageNum, pageSize);
     List<Product> productList = productMapper.selectListForAdmin();
-    PageInfo pageInfo = new PageInfo<>(productList);
-    return pageInfo;
+    return new PageInfo<>(productList);
   }
 
   @Override
@@ -94,7 +93,7 @@ public class ProductServiceImpl implements ProductService {
     String keyword = productListReq.getKeyword();
     // 搜索处理
     if (!StringUtils.isEmptyOrWhitespaceOnly(keyword)) {
-      String newKeyword = new StringBuilder().append("%").append(keyword).append("%").toString();
+      String newKeyword = "%" + keyword + "%";
       productListQuery.setKeyword(newKeyword);
     }
     // 目录处理
@@ -115,13 +114,11 @@ public class ProductServiceImpl implements ProductService {
       PageHelper.startPage(productListReq.getPageNum(), productListReq.getPageSize());
     }
     List<Product> productList = productMapper.selectListForCustomer(productListQuery);
-    PageInfo pageInfo = new PageInfo(productList);
-    return pageInfo;
+    return new PageInfo(productList);
   }
 
   private void getCategoryIds(List<CategoryVO> categoryVOList, ArrayList<Integer> categoryIds) {
-    for (int i = 0; i < categoryVOList.size(); i++) {
-      CategoryVO categoryVO = categoryVOList.get(i);
+    for (CategoryVO categoryVO : categoryVOList) {
       if (categoryVO != null) {
         categoryIds.add(categoryVO.getId());
         getCategoryIds(categoryVO.getChildCategory(), categoryIds);
@@ -135,5 +132,11 @@ public class ProductServiceImpl implements ProductService {
     return product;
   }
 
-
+  @Override
+  public void updateStock(Integer productId, Integer stock) {
+    Product product = new Product();
+    product.setId(productId);
+    product.setStock(stock);
+    productMapper.updateByPrimaryKeySelective(product);
+  }
 }

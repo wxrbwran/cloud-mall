@@ -6,6 +6,7 @@ import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.exception.ZuulException;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import com.netflix.zuul.context.RequestContext;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -17,6 +18,7 @@ import java.io.PrintWriter;
 /**
  * 用户校验过滤器
  */
+@Component
 public class UserFilter extends ZuulFilter {
 //  public static User currentUser;
 
@@ -38,7 +40,10 @@ public class UserFilter extends ZuulFilter {
     if (requestURI.contains("images") || requestURI.contains("pay")) {
       return false;
     }
-    return requestURI.contains("cart") || requestURI.contains("order");
+    if (requestURI.contains("cart") || requestURI.contains("order")) {
+      return true;
+    }
+    return false;
   }
 
   @Override

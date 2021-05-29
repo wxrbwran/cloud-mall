@@ -1,4 +1,4 @@
-package com.imooc.cloud.mall.practice.common.util;
+package com.imooc.cloud.mall.practice.cartorder.util;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -100,4 +100,15 @@ public class UserController {
   public Boolean checkAdminRole(@RequestBody User user){
     return userService.checkAdminRole(user);
   }
+
+  /**
+   * 获取当前登录的User对象
+   * @param session
+   * @return
+   */
+  @PostMapping("getUser")
+  public User getUser(HttpSession session){
+    User user = (User)session.getAttribute(Constant.IMOOC_MALL_USER);
+    return user;
+  }
 }

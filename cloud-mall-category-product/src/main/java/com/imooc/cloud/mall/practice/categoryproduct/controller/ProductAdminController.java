@@ -2,17 +2,18 @@ package com.imooc.cloud.mall.practice.categoryproduct.controller;
 
 import com.github.pagehelper.PageInfo;
 
+import com.imooc.cloud.mall.practice.categoryproduct.common.ProductConstant;
 import com.imooc.cloud.mall.practice.categoryproduct.model.pojo.Product;
 import com.imooc.cloud.mall.practice.categoryproduct.model.request.AddProductReq;
 import com.imooc.cloud.mall.practice.categoryproduct.model.request.UpdateProductReq;
 import com.imooc.cloud.mall.practice.categoryproduct.service.ProductService;
 import com.imooc.cloud.mall.practice.common.common.ApiRestResponse;
-import com.imooc.cloud.mall.practice.common.common.Constant;
 import com.imooc.cloud.mall.practice.common.exception.ImoocMallException;
 import com.imooc.cloud.mall.practice.common.exception.ImoocMallExceptionEnum;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -32,6 +33,11 @@ public class ProductAdminController {
   @Autowired
   ProductService productService;
 
+  @Value("${file.upload.ip}")
+  String ip;
+  @Value("${file.upload.port}")
+  Integer port;
+
   @PostMapping("admin/product/add")
   public ApiRestResponse addProduct(@Valid @RequestBody AddProductReq addProductReq){
     productService.add(addProductReq);
@@ -46,8 +52,8 @@ public class ProductAdminController {
     UUID uuid = UUID.randomUUID();
     String newFileName = uuid.toString() + suffixName;
     // 创建文件
-    File fileDirectory = new File(Constant.FILE_UPLOAD_DIR);
-    File destFile = new File(Constant.FILE_UPLOAD_DIR + newFileName);
+    File fileDirectory = new File(ProductConstant.FILE_UPLOAD_DIR);
+    File destFile = new File(ProductConstant.FILE_UPLOAD_DIR + newFileName);
     if (!fileDirectory.exists()) {
       if (!fileDirectory.mkdir()) {
         throw new ImoocMallException(ImoocMallExceptionEnum.MAKE_DIR_FAILED);
@@ -59,7 +65,7 @@ public class ProductAdminController {
       throw new ImoocMallException(ImoocMallExceptionEnum.UPLOAD_FAILED);
     }
     try {
-      return ApiRestResponse.success(getHost(new URI(httpServletRequest.getRequestURL() + "")) + "/images/" + newFileName);
+      return ApiRestResponse.success(getHost(new URI(httpServletRequest.getRequestURL() + "")) + "/category-product/images/" + newFileName);
     } catch (URISyntaxException e) {
       throw new ImoocMallException(ImoocMallExceptionEnum.UPLOAD_FAILED);
     }
@@ -68,7 +74,7 @@ public class ProductAdminController {
   public URI getHost(URI uri) {
     URI effectiveURI;
     try {
-      effectiveURI = new URI(uri.getScheme(), uri.getUserInfo(), uri.getHost(), uri.getPort(), null, null, null);
+      effectiveURI = new URI(uri.getScheme(), uri.getUserInfo(), ip, port, null, null, null);
     } catch (URISyntaxException e) {
       effectiveURI = null;
     }
@@ -104,4 +110,6 @@ public class ProductAdminController {
     PageInfo pageInfo = productService.listForAdmin(pageNum, pageSize);
     return ApiRestResponse.success(pageInfo);
   }
+
+
 }
