@@ -27,6 +27,7 @@ import com.imooc.cloud.mall.practice.categoryproduct.model.pojo.Product;
 import com.imooc.cloud.mall.practice.common.common.Constant;
 import com.imooc.cloud.mall.practice.common.exception.ImoocMallException;
 import com.imooc.cloud.mall.practice.common.exception.ImoocMallExceptionEnum;
+import com.imooc.cloud.mall.practice.user.model.pojo.User;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -65,6 +66,13 @@ public class OrderServiceImpl implements OrderService {
 
   @Value("${file.upload.ip}")
   String ip;
+
+  @Value("${file.upload.dir}")
+  String FILE_UPLOAD_DIR;
+
+
+  @Value("${file.upload.port}")
+  Integer port;
 
   @Transactional(rollbackFor = Exception.class)
   @Override
@@ -257,16 +265,14 @@ public class OrderServiceImpl implements OrderService {
     ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
 
     HttpServletRequest request = servletRequestAttributes.getRequest();
-    String address = ip + ":" + request.getLocalPort();
-    String payUrl = "http://" + address + "/pay?orderNo=" + orderNo;
+    String address = ip + ":" + port;
+    String payUrl = "http://" + address + "/cart-order/pay?orderNo=" + orderNo;
     try {
-      QRCodeGenerator.generateQRCodeImage(payUrl, 350, 350, ProductConstant.FILE_UPLOAD_DIR + orderNo+ ".png");
-    } catch (WriterException e) {
-      e.printStackTrace();
-    } catch (IOException e) {
+      QRCodeGenerator.generateQRCodeImage(payUrl, 350, 350, FILE_UPLOAD_DIR + orderNo+ ".png");
+    } catch (WriterException | IOException e) {
       e.printStackTrace();
     }
-    String pngAddress = "http://" + address +"/images/" + orderNo +".png";
+    String pngAddress = "http://" + address +"/cart-order/images/" + orderNo +".png";
     return  pngAddress;
   }
 
@@ -290,7 +296,7 @@ public class OrderServiceImpl implements OrderService {
 
     if(order.getOrderStatus() == Constant.OrderStatusEnum.NOT_PAID.getCode()) {
       order.setOrderStatus(Constant.OrderStatusEnum.PAID.getCode());
-      order.setEndTime(new Date());
+      order.setPayTime(new Date());
       orderMapper.updateByPrimaryKeySelective(order);
     } else {
       throw new ImoocMallException(ImoocMallExceptionEnum.WRONG_ORDER_STATUS);
@@ -298,7 +304,7 @@ public class OrderServiceImpl implements OrderService {
   }
 
   /**
-   * 发货
+   * 管理员发货
    * @param orderNo
    */
   @Override
@@ -330,8 +336,8 @@ public class OrderServiceImpl implements OrderService {
     }
     // 普通用户 校验订单所属
     // 订单存在，判断订单所属
-    Integer userId = userFeignClient.getUser().getId();
-    if (!userFeignClient.checkAdminRole(userFeignClient.getUser()) && !userId.equals(order.getUserId())) {
+    User user = userFeignClient.getUser();
+    if (user.getRole().equals(1) && !user.getId().equals(order.getUserId())) {
       throw new ImoocMallException(ImoocMallExceptionEnum.NOT_YOUR_ORDER);
     }
     // 发货后 可以完结订单
