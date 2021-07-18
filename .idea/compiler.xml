@@ -10,8 +10,9 @@
         <module name="cloud-mall-common" />
         <module name="cloud-mall-cart-order" />
         <module name="cloud.mall.zuul" />
-        <module name="cloud-mall-category-product" />
         <module name="cloud-mall-eureka-server" />
+        <module name="cloud-mall-zuul" />
+        <module name="cloud-mall-category-product" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="cloud-mall-common" options="-parameters" />
       <module name="cloud-mall-eureka-server" options="-parameters" />
       <module name="cloud-mall-user" options="-parameters" />
+      <module name="cloud-mall-zuul" options="-parameters" />
       <module name="cloud.mall.zuul" options="-parameters" />
     </option>
   </component>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="imooc_mall@localhost" uuid="6b077be8-de5a-4a3a-86e8-4e6580514a90">
-      <driver-ref>mysql.8</driver-ref>
+    <data-source source="LOCAL" name="MariaDB - imooc_mall@localhost" uuid="61716198-ca57-4323-a76b-f219bb0a6362">
+      <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/imooc_mall</jdbc-url>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/imooc_mall</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
