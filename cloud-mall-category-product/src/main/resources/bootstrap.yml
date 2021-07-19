@@ -1,0 +1,24 @@
+
+---
+spring:
+  profiles: prod
+  application:
+    name: cloud-mall-category-product
+  cloud:
+    config:
+      name: cloud-mall-category-product
+      uri: http://localhost:8301
+      label: master
+      profile: prod
+
+---
+spring:
+  profiles: dev
+  application:
+    name: cloud-mall-category-product
+  cloud:
+    config:
+      name: cloud-mall-category-product
+      uri: http://localhost:8301
+      label: master
+      profile: dev

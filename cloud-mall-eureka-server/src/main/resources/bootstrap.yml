@@ -1,0 +1,24 @@
+
+---
+spring:
+  profiles: prod
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      name: eureka-server
+      uri: http://localhost:8301
+      label: master
+      profile: prod
+
+---
+spring:
+  profiles: dev
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      name: eureka-server
+      uri: http://localhost:8301
+      label: master
+      profile: dev

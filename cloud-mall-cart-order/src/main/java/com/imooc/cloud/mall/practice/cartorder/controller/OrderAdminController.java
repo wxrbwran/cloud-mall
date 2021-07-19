@@ -26,12 +26,7 @@ public class OrderAdminController {
     return ApiRestResponse.success(pageInfo);
   }
 
-  @PostMapping("pay")
-  @ApiOperation("支付接口")
-  public ApiRestResponse pay(String orderNo) {
-    orderService.pay(orderNo);
-    return ApiRestResponse.success();
-  }
+
 
   /**
    * 发货 订单状态流程： 0：用户已取消 10：未付款 20：已付款 30：已发货 40：交易完成

@@ -1,0 +1,24 @@
+
+---
+spring:
+  profiles: prod
+  application:
+    name: cloud-mall-cart-order
+  cloud:
+    config:
+      name: cloud-mall-cart-order
+      uri: http://localhost:8301
+      label: master
+      profile: prod
+
+---
+spring:
+  profiles: dev
+  application:
+    name: cloud-mall-cart-order
+  cloud:
+    config:
+      name: cloud-mall-cart-order
+      uri: http://localhost:8301
+      label: master
+      profile: dev
